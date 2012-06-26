@@ -5,7 +5,7 @@ from django.conf import settings
 from django.template import RequestContext, loader
 from django.contrib.sites.models import Site
 
-def page_not_found(request, template_name='perfect404.html'):
+def page_not_found(request, template_name='perfect404/perfect404.html'):
     """
     Perfect 404 handler.
 
